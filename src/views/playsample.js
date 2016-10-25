@@ -176,7 +176,8 @@ exports.initPlaySample = function(ctx) {
   keywords.sort();
 
   (function() {
-    var fileName = 'audio/' + LOOKUP_TABLE[ctx.currentModel][0];
+    var fileName = 'audio/weather.wav';
+    //var fileName = 'audio/' + LOOKUP_TABLE[ctx.currentModel][0];
     // var keywords = LOOKUP_TABLE[ctx.currentModel][2];
     var el = $('.play-sample-1');
     el.off('click');
@@ -190,7 +191,8 @@ exports.initPlaySample = function(ctx) {
   })(ctx, LOOKUP_TABLE);
 
   (function() {
-    var fileName = 'audio/' + LOOKUP_TABLE[ctx.currentModel][1];
+    var fileName = 'audio/news.wav';
+    //var fileName = 'audio/' + LOOKUP_TABLE[ctx.currentModel][1];
     // var keywords = LOOKUP_TABLE[ctx.currentModel][3];
     var el = $('.play-sample-2');
     el.off('click');
